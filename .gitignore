@@ -1,0 +1,45 @@
+# Compiled executable
+compiler
+a.out
+
+# Flex and Bison generated files
+lex.yy.c
+y.tab.c
+y.tab.h
+y.output
+
+# Other possible Bison outputs
+*.tab.c
+*.tab.h
+*.output
+
+# Object files and other build artifacts
+*.o
+*.obj
+
+# Backup and temporary files
+*~
+*.bak
+*.tmp
+
+# Editor/IDE files
+# Vim
+*.swp
+*.swo
+# Emacs
+*~
+.#*
+# VS Code
+.vscode/
+# CLion / IntelliJ
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Logs and debugging
+*.log
+
+#  test outputs later
+*.out
