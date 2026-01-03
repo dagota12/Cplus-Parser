@@ -205,22 +205,4 @@ If you encounter build errors:
 
 The parser may show warnings about shift/reduce conflicts during compilation. These are expected and don't affect basic functionality.
 
-## Contributing
 
-Contributions are welcome! Feel free to:
-- Report bugs
-- Suggest new features
-- Submit pull requests
-
-## License
-
-This project is available as open source. Please check the repository for license details.
-
-## Author
-
-Created by dagota12
-
-## Acknowledgments
-
-- Built using GNU Flex and Bison tools
-- Inspired by compiler construction principles and automata theory
