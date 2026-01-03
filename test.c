@@ -12,6 +12,6 @@ if (x > y) {
     z = 0;
 }
 
-while (y > 0) {
+while (y >= 0) {
     y = y - 1;
 }
