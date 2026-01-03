@@ -161,9 +161,9 @@ Parsing failed: Invalid syntax.
 ## Supported Language Constructs
 
 ### Keywords
-- `int`, `float`, `return`
-- `if`, `else`
-- `while`
+- Variable types: `int`, `float`
+- Statement keywords: `return`
+- Control flow: `if`, `else`, `while`
 
 ### Operators
 - Arithmetic: `+`, `-`, `*`, `/`
@@ -188,8 +188,9 @@ Parsing failed: Invalid syntax.
 ## Limitations
 
 - This is a **syntax checker only** - it does not execute code or perform semantic analysis
+- No type checking or enforcement (e.g., assigning float values to int variables is accepted)
 - Limited to a subset of C language features
-- No type checking or scope resolution
+- No scope resolution
 - No optimization or code generation
 
 ## Troubleshooting
